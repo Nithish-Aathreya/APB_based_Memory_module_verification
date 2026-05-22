@@ -1,0 +1,182 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/SV_practice/SV TB-memory
+T_opt
+!s110 1777398161
+ViZiTG5df;ofLQ3UA[Oc:]0
+Z1 04 3 4 work top fast 0
+=4-30d042048ec3-69f0f191-33-e64
+o-quiet -auto_acc_if_foreign -work work -suppress 7045
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1777398667
+VNcIch[JC1ez>6RIT^dzV=3
+R1
+=8-30d042048ec3-69f0f38b-1ba-e64
+Z4 o-quiet -auto_acc_if_foreign -work work
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1777399594
+V6S_087_L3aRf]WkhRHVYa2
+R1
+=1-30d042048ec3-69f0f72a-11-cc0
+R4
+R2
+n@_opt2
+R3
+R0
+Xlist_svh_unit
+!s115 mintf
+Z5 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+VKnL3hXS[0m[KG9jHDY60n1
+r1
+!s85 0
+!i10b 1
+!s100 @ng:X0R93]eLV2_XzT7920
+IKnL3hXS[0m[KG9jHDY60n1
+!i103 1
+S1
+R0
+Z6 w1777400670
+8list.svh
+Flist.svh
+Z7 Fmemory.sv
+Z8 Fintf.sv
+Fcommon.sv
+Z9 Fmem_assert.sv
+Fmem_tx.sv
+Fmem_cov.sv
+Fmem_mon.sv
+Fmem_bfm.sv
+Fmem_gen.sv
+Fmem_sbd.sv
+Fmem_agent.sv
+Fmem_env.sv
+Z10 Ftop.sv
+L0 1
+Z11 OL;L;10.7c;67
+31
+Z12 !s108 1777456069.000000
+Z13 !s107 top.sv|mem_env.sv|mem_agent.sv|mem_sbd.sv|mem_gen.sv|mem_bfm.sv|mem_mon.sv|mem_cov.sv|mem_tx.sv|mem_assert.sv|common.sv|intf.sv|memory.sv|list.svh|
+Z14 !s90 -reportprogress|300|-sv|list.svh|
+!i113 0
+Z15 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vmemory
+R5
+Z16 !s110 1777456069
+!i10b 1
+!s100 fYf9BBUom5KQN7zHG9@AT0
+I[iB4V2nm[]D5o]3ZUgX4>0
+Z17 VDg1SIo80bB@j0V0VzS_@n1
+Z18 !s105 list_svh_unit
+S1
+R0
+w1777396118
+8memory.sv
+R7
+L0 6
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+vmemory_assert
+R5
+Z19 DXx4 work 13 list_svh_unit 0 22 KnL3hXS[0m[KG9jHDY60n1
+R17
+r1
+!s85 0
+!i10b 1
+!s100 @PoE8iz^aHTQAjb8_LbhI2
+ISoH4j24VlHGG5T4dNG3Wg0
+R18
+S1
+R0
+w1777399259
+8mem_assert.sv
+R9
+L0 1
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+Ymintf
+R5
+R16
+!i10b 1
+!s100 NWNQ9=[G;QmK2I>V^l4L_1
+IKHdz[W2m:HenDCQQKBPa82
+R17
+R18
+S1
+R0
+w1777366541
+8intf.sv
+R8
+L0 1
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+Ttest1
+R16
+ViV[^8dWfFd5>]e41@oN2C1
+R1
+!s102 +cover=fcbest
+o+cover=fcbest
+R2
+ntest1
+R3
+vtop
+R5
+R19
+R17
+r1
+!s85 0
+!i10b 1
+!s100 VZNVa;47obZN>nPUkfCd]2
+I4f6Ce>m]_NMoRWh=@O7dK0
+R18
+S1
+R0
+R6
+8top.sv
+R10
+L0 1
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2

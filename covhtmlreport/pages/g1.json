@@ -1,0 +1,8 @@
+var g_data = {
+g92:[{dummy:0},
+{name:'mem_cg',f:1,type:1,id:94,tb:'23',h:'23',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['merge_instance','auto(true)']],parent:'92'}],
+g139:[{dummy:0},
+{name:'mem_cg',f:1,type:1,id:141,tb:'23',h:'23',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['merge_instance','true']],parent:'139'}],
+dummyEnd:0
+};
+processCovergroupsData(g_data);

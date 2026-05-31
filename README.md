@@ -12,7 +12,7 @@ The **Advanced Peripheral Bus (APB)** is a low-power, low-complexity bus protoco
 | `rst`   | Active-high synchronous reset.                                              | 1-bit  |
 | `valid` | Driven by master. Acts as PSEL + PENABLE combined. Initiates a transfer.   | 1-bit  |
 | `ready` | Driven by slave (design). Goes high when slave is ready to complete transfer.| 1-bit  |
-| `wr_rd` | Transfer direction. `1` = Write, `0` = Read.                               | 1-bit  |
+| `wr_rd` | Transfer direction. Write=`1`,Read=`0.                               | 1-bit  |
 | `addr`  | Address bus. Selects the target memory location.                            | 7-bit  |
 | `wdata` | Write data bus. Driven by master during write transfers.                    | 16-bit |
 | `rdata` | Read data bus. Driven by slave during read transfers.                       | 16-bit |
@@ -37,6 +37,8 @@ The **Advanced Peripheral Bus (APB)** is a low-power, low-complexity bus protoco
 
 ## Simulation Waveform
 
-<(image-1.png) />
----
 
+
+![alt text](apb_wfrm.png)
+
+---

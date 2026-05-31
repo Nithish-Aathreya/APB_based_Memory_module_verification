@@ -37,7 +37,6 @@ The **Advanced Peripheral Bus (APB)** is a low-power, low-complexity bus protoco
 
 ## Simulation Waveform
 
-<!--![alt text](image.png) -->
-
+<(image-1.png) />
 ---
 

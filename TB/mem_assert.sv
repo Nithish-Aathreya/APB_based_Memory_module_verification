@@ -19,11 +19,26 @@ endproperty
 cover property(handshake);
 assert property(handshake);
 
+//wdata should be valid data
+property wdata_valid;
+    @(posedge clk) (wr_rd==1) |->not ( $isunknown(wdata));
+endproperty
+assert property(wdata_valid);
+cover property(wdata_valid);
 
+//rdata should be valid data
+property rdata_valid;
+    @(posedge clk) (wr_rd==0) |=>not ( $isunknown(rdata));
+endproperty
+assert property(rdata_valid);
+cover property(rdata_valid);
 
-
-
-
+//addr should be valid data
+property addr_valid;
+    @(posedge clk) (wr_rd==1) |->not ( $isunknown(addr));
+endproperty
+assert property(addr_valid);
+cover property(addr_valid);
 
 endmodule
 

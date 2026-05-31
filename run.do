@@ -9,6 +9,6 @@ coverage save -onexit test1.ucdb
 add wave -position insertpoint -radix hex sim:/pintf/*
 #add wave -assertion sim:/top/*
 
-# do wave.do   ;# (optional if you have a waveform script)
+# do wave.do   
 
 run -all

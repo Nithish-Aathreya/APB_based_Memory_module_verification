@@ -25,14 +25,6 @@ The **Advanced Peripheral Bus (APB)** is a low-power, low-complexity bus protoco
 > 📌 _State diagram to be added._
 
 ---
-
-## Simulation Waveform
-
-<!-- Insert waveform image here -->
-> 📌 _Waveform image to be added._
-
----
-
 ## FSM State Description
 
 | State    | Condition                  | Action                                              |
@@ -42,3 +34,10 @@ The **Advanced Peripheral Bus (APB)** is a low-power, low-complexity bus protoco
 | `ACCESS` | `valid == 1`, `ready == 1` | Transfer completes. Write to mem or `rdata` latched. Returns to IDLE. |
 
 > **Note:** `ready` is driven combinationally — it goes high on the **same posedge** that `valid` is sampled. This results in a **0 wait-state** APB model.
+
+## Simulation Waveform
+
+<!--![alt text](image.png) -->
+
+---
+
